@@ -1,0 +1,11 @@
+= Qsharp
+
+== Usage
+
+* Install link:https://docs.microsoft.com/en-us/azure/quantum/install-command-line-qdk[.NET Core 3.1, VS Code and QDK for VS Code].
+** link:https://dotnet.microsoft.com/download[.NET Core 3.1]
+** link:https://code.visualstudio.com/download[VS Code]
+** link:https://marketplace.visualstudio.com/items?itemName=quantum.quantum-devkit-vscode[Microsoft Quantum Development Kit for Visual Studio Code]. Instead of using the link you can open VS Code -> Extensions Button on the left side -> Search for Q# or Qsharp -> Install the SDK from "Microsoft DevLabs"
+* Open the terminal and navigate to the `Qsharp.csproj`
+* `dotnet run` and wait for projects to be downloaded
+
