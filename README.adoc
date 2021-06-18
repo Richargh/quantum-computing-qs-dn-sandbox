@@ -7,7 +7,8 @@
 ** link:https://code.visualstudio.com/download[VS Code]
 ** link:https://marketplace.visualstudio.com/items?itemName=quantum.quantum-devkit-vscode[Microsoft Quantum Development Kit for Visual Studio Code]. Instead of using the link you can open VS Code -> Extensions Button on the left side -> Search for Q# or Qsharp -> Install the SDK from "Microsoft DevLabs"
 * Open the terminal and navigate to the `Qsharp.csproj`
-* `dotnet run` and wait for projects to be downloaded. This took a long time the first time (quite a few minutes).
+* `dotnet build` and wait for projects to be downloaded. This took a long time the first time (quite a few minutes).
+* `dotnet run` to see the result
 
 == Gates
 
