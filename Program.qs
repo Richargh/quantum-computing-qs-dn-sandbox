@@ -2,9 +2,11 @@ namespace Qsharp {
 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
-    
+    open Microsoft.Quantum.Measurement;
+    open Microsoft.Quantum.Convert;
+
     @EntryPoint()
     operation SayHello() : Unit {
-        Message("Hello quantum world!");
+        Dice.MessageMultipleDice(2);
     }
 }

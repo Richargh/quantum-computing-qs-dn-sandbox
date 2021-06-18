@@ -7,5 +7,13 @@
 ** link:https://code.visualstudio.com/download[VS Code]
 ** link:https://marketplace.visualstudio.com/items?itemName=quantum.quantum-devkit-vscode[Microsoft Quantum Development Kit for Visual Studio Code]. Instead of using the link you can open VS Code -> Extensions Button on the left side -> Search for Q# or Qsharp -> Install the SDK from "Microsoft DevLabs"
 * Open the terminal and navigate to the `Qsharp.csproj`
-* `dotnet run` and wait for projects to be downloaded
+* `dotnet run` and wait for projects to be downloaded. This took a long time the first time (quite a few minutes).
 
+== Gates
+
+* X-Gate (not): +
+  Inverts the bit
+* H(adamard)-Gate: +
+  Maps very nicely into an equal superposition and back again.
+* CNOT-Gate: +
+  C(ontrol)-Gate, our if. If the first of two bits is zero, then don't flip the second. If the first bit is one, then flip the second.
